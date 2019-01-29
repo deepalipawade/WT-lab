@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="myJS.js" type = "text/javascript"></script>
+	</head>
+	<body>
+			<header class="head">
+				<div>Home</div>
+				<div>Contact</div>
+			</header>
+				<form name="myForm">
+					 <fieldset>
+						<legend style>Personal information:</legend>
+						First name:<br>
+						<input id="fname" type="text" name="firstname"  placeholder="First name">
+						<br>
+						Last name:<br>
+						<input id="lname" type="text" name="lastname"  placeholder="Last name">
+						<br>
+						Password:<br>
+						<input id="pass" type="password" name="pwd" placeholder="password">
+						<p>( Password must be of length 5 or more , containing at lest One Capital letter, small letters and numeric values)</p>
+						Gender:<br>
+						<input type="radio" name="gender" value="Male" checked>Male<br>
+						<input type="radio" name="gender" value="Female">Female<br>
+						<br>
+					 <tr>
+					   <td align = "right">Branch</td>
+					 	 <td>
+						  <select name = "branch" id="list">
+						     <option value = "-1" selected>[choose yours]</option>
+						     <option value = "1">Comp</option>
+						     <option value = "2">Civils</option>
+						     <option value = "3">Mech</option>
+                  		</select>
+              			 </td>
+           		 </tr>
+					  </fieldset>
+					   <fieldset>
+					<legend>Submit Information</legend>
+					<button id="btn" onclick="validate()">Submit</button>
+				  </fieldset>
+				</form>
+			<footer>
+			</footer>
+
+	</body>
+</html>

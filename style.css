@@ -1,0 +1,42 @@
+body{
+background:red;
+background-color:#ffcc99;
+color:#993300;
+}
+div{
+margin-left:80px;
+display:inline;
+}
+header{
+padding:30px;
+border-style: groove;
+font-family:serif;
+font-size:20px;
+height:30px;
+color:red;
+}
+.head{
+	height:30px;
+	background-color:#ffcc99;
+}
+.cont{
+	height:70px;
+	background-color:#ffcc99;
+}
+#id{
+
+}
+#btn {
+    width: 15em;
+    padding:20px;
+    border: 2px solid green;
+    background: #fff;
+    margin-left:60px;
+    margin-top:50px;
+    border-radius:5px;
+}
+content{
+	padding:#ffcc99
+	background:#	
+}
+
